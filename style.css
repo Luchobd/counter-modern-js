@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  background-color: #d87093;
+}
+
+.title {
+  font-size: 5rem;
+  height: 10vh;
+  text-align: center;
+  color: #00000090;
+}
+
+.container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__counter {
+  min-width: 15rem;
+  height: 15rem;
+  border: 2px solid #ffefd5;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+  box-shadow: -0.5rem 0.5rem 1rem #dc143c;
+  background-color: pink;
+  /* transform: rotate(-25deg); */
+}
+
+.number__counter {
+  font-size: 10rem;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00000090;
+}
+
+.button__counter_container button {
+  margin: 0 1rem;
+}
+
+.button {
+  border: 1px solid #dc143c;
+  border-radius: 1rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00000090;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #dc143c;
+}
+
+.button:active {
+  color: #000;
+}
